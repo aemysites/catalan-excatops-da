@@ -1,0 +1,55 @@
+{
+  "variantName": "accordion-faq",
+  "baseBlock": "accordion",
+  "version": "1.0.0",
+  "created": "2025-10-27T12:35:31.414Z",
+  "sourceContext": {
+    "originUrl": "https://www.wellsfargo.com/checking/clear-access-banking/",
+    "originPage": "Wells Fargo Clear Access Banking product page",
+    "screenshotPath": "blocks/accordion-faq/reference-screenshot.png",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "purpose": "faq-section",
+    "imagePattern": "noimg",
+    "textLength": "medium"
+  },
+  "contentPattern": {
+    "structure": "question + answer pairs",
+    "headingMaxLength": 100,
+    "descriptionMaxLength": 500,
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "FAQ sections",
+      "help documentation",
+      "Q&A content",
+      "collapsible information sections"
+    ],
+    "notSuitableFor": [
+      "navigation menus",
+      "simple lists",
+      "content that should always be visible"
+    ],
+    "similarVariants": []
+  },
+  "designTokens": {
+    "primaryColor": "#333333",
+    "backgroundColor": "#ffffff",
+    "fontFamily": "system-ui, sans-serif",
+    "headingSize": "1rem",
+    "padding": "16px"
+  },
+  "usage": {
+    "pagesUsing": [
+      "/checking/clear-access-banking/index",
+      "/checking/everyday/index"
+    ],
+    "reuseCount": 2,
+    "lastUsed": "2025-10-27T12:49:12.959Z"
+  }
+}

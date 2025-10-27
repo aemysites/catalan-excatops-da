@@ -1,0 +1,55 @@
+{
+  "variantName": "cards-cib",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2025-10-27T13:13:18.332Z",
+  "sourceContext": {
+    "originUrl": "https://www.wellsfargo.com/cib/global-markets/",
+    "originPage": "Wells Fargo Corporate & Investment Banking Global Markets",
+    "screenshotPath": "blocks/cards-cib/reference-screenshot.png",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "content-showcase",
+    "imagePattern": "large",
+    "textLength": "medium"
+  },
+  "contentPattern": {
+    "structure": "image + heading + description + CTA link",
+    "headingMaxLength": 80,
+    "descriptionMaxLength": 300,
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "news and perspectives sections",
+      "service showcases with images",
+      "product feature grids",
+      "corporate content highlights"
+    ],
+    "notSuitableFor": [
+      "text-only cards",
+      "icon-based cards",
+      "simple feature lists"
+    ],
+    "similarVariants": []
+  },
+  "designTokens": {
+    "primaryColor": "#333333",
+    "backgroundColor": "#ffffff",
+    "fontFamily": "system-ui, sans-serif",
+    "headingSize": "1.5rem",
+    "padding": "16px"
+  },
+  "usage": {
+    "pagesUsing": [
+      "/cib/global-markets/index",
+      "/cib/commercial-real-estate/index"
+    ],
+    "reuseCount": 2,
+    "lastUsed": "2025-10-27T13:22:00.000Z"
+  }
+}
